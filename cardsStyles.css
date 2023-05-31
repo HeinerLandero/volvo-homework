@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/* Desktop 1920px  */
+.content-article--cards{
+    width: 100%;
+    max-width: 1920px;
+    height: 216px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.content-article--cards .card--whatsp{
+    width: 212px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.content-article--cards .icon-card--whatsp{
+    width: 44px;
+    height: 44px;
+    background-image: url("./assets/icons/wthsicon.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+}
+.content-article--cards .title-name--contact{
+    width: 210px;
+    height: 24px;
+    font-family:var(--font-regular);
+    text-align: center;
+    margin: 0 auto;
+    font-size:2rem;
+    line-height: 2.4rem;
+}
+.content-article--cards p{
+    width: 210px;
+    height: 52px;
+    text-align: center;
+    margin-top: 16px;
+    font-size:1.8rem;
+    line-height: 2.4rem;
+}
+/* Mobile 320 */
+@media screen and (min-width: 300px) and (max-width: 780px){
+    .content-article--cards{
+        width: 100%;
+        min-width: 320px;
+        height: 650px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    } 
+    .content-article--cards .card--whatsp{
+        width: 244px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .content-article--cards .icon-card--whatsp{
+        width: 28px;
+        height: 28px;
+        margin-bottom: 8px;
+    }
+    .content-article--cards .title-name--contact{
+        width: 244px;
+        height: 17px;
+        font-size:1.4rem;
+        line-height: 1.68rem;
+        text-align: center;
+    }
+    .content-article--cards p{
+        width: 210px;
+        height: 52px;
+        text-align: center;
+        margin-top: 8px;
+        font-size:1.4rem;
+        line-height: 1.8rem;
+    }
+}
