@@ -1,0 +1,9 @@
+--font-regular: 'VolvoNovum-Regular';
+    --font-bold: 'VolvoNovum-Bold';
+    --font-medium: 'VolvoNovum-Medium';
+    --color1: #1B365D;
+    --color2: #202A44;
+    --color3: #414141;
+    --color4: #141414;
+    --color5: #325996;
+    --color6: #53565A;
