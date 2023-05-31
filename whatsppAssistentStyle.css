@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    .talk-whatp--container{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1920px;
+        height: 268px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .talk-whatp--container p{
+        width: 260px;
+        height: 20px;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-family: var(--font-regular);
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .talk-whatp--container h2{
+        width: 696px;
+        height: 96px;
+        text-align: center;
+        font-size: 4rem;
+        line-height: 4.8rem;
+        padding-top: 24px;
+        font-family: var(--font-regular);
+        font-weight: var(--font-bold);
+    }
+    @media screen and (min-width: 300px) and (max-width: 780px){
+        .talk-whatp--container{
+        width: 100%;
+        min-width: 320px;
+        height: 216px;   
+        margin: 0 auto; 
+      }
+      .talk-whatp--container p{
+        margin: 0 auto;
+        width: 272px;
+        height: 20px;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        letter-spacing: 1px;
+    }
+      .talk-whatp--container h2{
+        width: 272px;
+        margin: 0 auto;
+        height: 116px;
+        font-size: 2.8rem;
+        line-height: 3rem;
+        padding-top: 16px;
+ }
+}
